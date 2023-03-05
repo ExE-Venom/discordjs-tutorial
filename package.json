@@ -1,0 +1,35 @@
+{
+  "name": "discordjs-tutorial",
+  "version": "1.0.0",
+  "description": "source code for the tutorial on YT- VenomExE",
+  "main": "index.js",
+  "author": "ExE-Venom",
+  "license": "CC0",
+  "engines": {
+    "node": ">=16.11.0"
+  },
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "homepage": "https://github.com/ExE-Venom/discordjs-tutorial#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExE-Venom/discordjs-tutorial.git"
+  },
+  "devDependencies": {
+    "node": "^16.11.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "discord-bot",
+    "open-source",
+    "bot",
+    "multipurpose",
+    "multi-purpose-bot"
+  ],
