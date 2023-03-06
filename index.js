@@ -28,6 +28,4 @@ fs.readdirSync('./src/handlers').forEach((handler) => {
     require('./handlers/' + handler)(client, config);
 });
 
-require('./error/main')();
-
 client.login(env.BOT_TOKEN);
